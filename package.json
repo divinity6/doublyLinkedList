@@ -1,0 +1,48 @@
+{
+  "name": "dll-js",
+  "version": "0.9.1",
+  "description": "Doubly Linked List - Javascript or Typescript",
+  "main": "dist/sll-js.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "jest"
+  },
+  "types": "./types/index.d.ts",
+  "keywords": [
+    "dataStructure",
+    "js dataStructure",
+    "linked list",
+    "doubly linked list",
+    "doubly linked list js",
+    "doubly linked list ts",
+    "algorithms"
+  ],
+  "author": "divinity6 Hoon",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.13.0",
+    "@babel/register": "^7.9.0",
+    "@babel/runtime": "^7.9.2",
+    "@types/node": "^14.14.35",
+    "@types/webpack": "^4.41.12",
+    "@types/webpack-env": "^1.15.2",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-plugin-class-display-name": "^2.1.0",
+    "babel-plugin-istanbul": "^6.0.0",
+    "core-js": "3.6.5",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5",
+    "terser-webpack-plugin": "^2.3.6",
+    "ts-loader": "^7.0.1",
+    "tslint": "^6.1.1",
+    "typescript": "^5.0.2",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {}
+}
