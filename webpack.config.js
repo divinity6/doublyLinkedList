@@ -5,8 +5,8 @@ module.exports = {
 
     mode : "production",
     entry : {
-        "sll-js" : path.resolve( __dirname , "./src/index.ts" ),
-        "sll-js.min" : path.resolve( __dirname , "./src/index.ts" )
+        "dll-ts" : path.resolve( __dirname , "./src/index.ts" ),
+        "dll-ts.min" : path.resolve( __dirname , "./src/index.ts" )
     },
     output : {
         filename: '[name].js',

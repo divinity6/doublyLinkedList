@@ -12,7 +12,7 @@
 ---
 
 ````powershell
-npm i dll-js --save
+npm i dll-ts --save
 ````
 
 ### Test

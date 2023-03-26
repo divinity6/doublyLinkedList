@@ -1,8 +1,8 @@
 {
-  "name": "dll-js",
-  "version": "0.9.1",
+  "name": "dll-ts",
+  "version": "0.9.3",
   "description": "Doubly Linked List - Javascript or Typescript",
-  "main": "dist/sll-js.js",
+  "main": "dist/dll-ts.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "test": "jest"
@@ -17,6 +17,11 @@
     "doubly linked list ts",
     "algorithms"
   ],
+  "homepage": "https://github.com/divinity6/doublyLinkedList",
+  "bugs": {
+    "url": "https://github.com/divinity6/doublyLinkedList/issues",
+    "email": "divinity456@gmail.com"
+  },
   "author": "divinity6 Hoon",
   "license": "MIT",
   "devDependencies": {
