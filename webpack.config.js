@@ -12,7 +12,7 @@ module.exports = {
         filename: '[name].js',
         publicPath: '/',
         path : path.resolve( __dirname , 'dist' ),
-        library: [ 'sll-js' ],
+        library: [ 'dll-ts' ],
         libraryTarget: 'umd',
     },
     resolve: {

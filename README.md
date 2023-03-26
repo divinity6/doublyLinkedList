@@ -24,17 +24,17 @@ npm run test
 ### Using
 
 ````javascript
-import Dll from 'dll-js';
+import Dll from 'dll-ts';
 
 const dll = new Dll();
 
-sll.push( 100 ).push( 300 );
+dll.push( 100 ).push( 300 );
 
 for ( const item of dll ){
     console.log( "item" , item ); // 100 , 300
 }
 
-console.log( sll.tail ) // 300;
+console.log( dll.tail ) // 300;
 ````
 
 ### Properties

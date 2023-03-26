@@ -29,7 +29,6 @@ describe( "========== Rotate ==========" , () => {
 
     it( "음수로 호출하면 Tail Node 부터 앞으로 변경한다" , () => {
         dll.rotate( -100 );
-        console.log( "dll" , dll )
         expect( dll.head.val ).toBe( 5 );
     } );
 

@@ -1,6 +1,6 @@
 {
   "name": "dll-ts",
-  "version": "0.9.3",
+  "version": "0.9.6",
   "description": "Doubly Linked List - Javascript or Typescript",
   "main": "dist/dll-ts.js",
   "scripts": {
